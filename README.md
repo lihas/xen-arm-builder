@@ -32,6 +32,9 @@ package and the emdebian.org apt source.
 4. On Debian, symlink the GCC 4.7 cross-compilers into your `$PATH` as
 described on the [sunxi](http://linux-sunxi.org/Toolchain) site.
 
+##Sahil (on my lab machine): export PATH="$PATH":/home/trinity/cubieboard/xen-arm-builder/binary/bin/
+
+
 5. Build U-Boot, Xen and Linux:
 
          $ make build
